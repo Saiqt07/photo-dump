@@ -25,136 +25,164 @@
         </div>
     </nav>
     <header>
-    <h1>My Photo Gallery</h1>
+        <h1 id="top">My Photo Gallery</h1>
+        <nav class="secondary-nav">
+            <a href="#me" class="filter-btn active" data-category="me">Me Pics</a>
+            <a href="#family" class="filter-btn" data-category="family">Family Pics</a>
+            <a href="#friends" class="filter-btn" data-category="friends">Friend Pics</a>
+            <a href="#random" class="filter-btn" data-category="random">Random Pics</a>
+        </nav>
     </header>
     
     <main>
         <div class="gallery">
-            <div class="photo">
-                <a href="photo1 (1).jpg" class="photo-link">
-                    <img src="photo1 (1).jpg" alt="Trio picture on MOA">
-                    <span class="caption">Trio picture on MOA</span>
+            <!-- Me Pics Section -->
+            <div class="category-title" id="me">
+                <h2>Me Pics</h2>
+            </div>
+            <div class="photo" data-category="me">
+                <a href="cy (1).jpg" class="photo-link" target="output">
+                    <img src="cy (1).jpg" alt="Solo pic at MOA">
+                    <span class="caption">Solo pic at MOA</span>
                 </a>
             </div>
-            <div class="photo">
-                <a href="photo1 (2).jpg" class="photo-link">
-                    <img src="photo1 (2).jpg" alt="Seminar Picture">
-                    <span class="caption">Seminar Picture</span>
+            <div class="photo" data-category="me">
+                <a href="cy (2).jpg" class="photo-link" target="output">
+                    <img src="cy (2).jpg" alt="Solo pic">
+                    <span class="caption">Solo pic</span>
                 </a>
             </div>
-            <div class="photo">
-                <a href="photo1 (3).jpg" class="photo-link">
-                    <img src="photo1 (3).jpg" alt="Solo pic at BGC">
+            <div class="photo" data-category="me">
+                <a href="cy (3).jpg" class="photo-link" target="output">
+                    <img src="cy (3).jpg" alt="Solo pic">
+                    <span class="caption">Solo pic</span>
+                </a>
+            </div>
+            <div class="photo" data-category="me">
+                <a href="cy (4).jpg" class="photo-link" target="output">
+                    <img src="cy (4).jpg" alt="Solo pic">
+                    <span class="caption">Solo pic</span>
+                </a>
+            </div>
+            <div class="photo" data-category="me">
+                <a href="cy (5).jpg" class="photo-link" target="output">
+                    <img src="cy (5).jpg" alt="Solo pic at BGC">
                     <span class="caption">Solo pic at BGC</span>
                 </a>
             </div>
-            <div class="photo">
-                <a href="photo1 (4).jpg" class="photo-link">
-                    <img src="photo1 (4).jpg" alt="With my cousin at Elyu">
+
+            <!-- Family Pics Section -->
+            <div class="category-title" id="family">
+                <h2>Family Pics</h2>
+            </div>
+            <div class="photo" data-category="family">
+                <a href="family (1).jpg" class="photo-link" target="output">
+                    <img src="family (1).jpg" alt="Picture with my Brother">
+                    <span class="caption">Picture with my Brother</span>
+                </a>
+            </div>
+            <div class="photo" data-category="family">
+                <a href="family (2).jpg" class="photo-link" target="output">
+                    <img src="family (2).jpg" alt="Family Picture">
+                    <span class="caption">Family Picture</span>
+                </a>
+            </div>
+            <div class="photo" data-category="family">
+                <a href="family (3).jpg" class="photo-link" target="output">
+                    <img src="family (3).jpg" alt="Family Picture">
+                    <span class="caption">Family Picture</span>
+                </a>
+            </div>
+            <div class="photo" data-category="family">
+                <a href="family (4).jpg" class="photo-link" target="output">
+                    <img src="family (4).jpg" alt="Family pic">
+                    <span class="caption">Picture with my Sister</span>
+                </a>
+            </div>
+            <div class="photo" data-category="family">
+                <a href="family (5).jpg" class="photo-link" target="output">
+                    <img src="family (5).jpg" alt="With my cousin at Elyu">
                     <span class="caption">With my cousin at Elyu</span>
                 </a>
             </div>
-            <div class="photo">
-                <a href="photo1 (5).jpg" class="photo-link">
-                    <img src="photo1 (5).jpg" alt="Seminar Picture">
-                    <span class="caption">Seminar Picture</span>
-                </a>
+
+            <!-- Friend Pics Section -->
+            <div class="category-title" id="friends">
+                <h2>Friend Pics</h2>
             </div>
-            <div class="photo">
-                <a href="photo1 (6).jpg" class="photo-link">
-                    <img src="photo1 (6).jpg" alt="Immersion Photo">
-                    <span class="caption">Immersion Photo</span>
-                </a>
-            </div>
-            <div class="photo">
-                <a href="photo1 (7).jpg" class="photo-link">
-                    <img src="photo1 (7).jpg" alt="Shoe pic with my crush">
-                    <span class="caption">Shoe pic with my crush</span>
-                </a>
-            </div>
-            <div class="photo">
-                <a href="photo1 (8).jpg" class="photo-link">
-                    <img src="photo1 (8).jpg" alt="Group picture with blockmates">
+            <div class="photo" data-category="friends">
+                <a href="friends (1).jpg" class="photo-link" target="output">
+                    <img src="friends (1).jpg" alt="Group picture with blockmates">
                     <span class="caption">Group picture with blockmates</span>
                 </a>
             </div>
-            <div class="photo">
-                <a href="photo1 (9).jpg" class="photo-link">
-                    <img src="photo1 (9).jpg" alt="Solo pic at Elyu">
-                    <span class="caption">Solo pic at Elyu</span>
+            <div class="photo" data-category="friends">
+                <a href="friends (2).jpg" class="photo-link" target="output">
+                    <img src="friends (2).jpg" alt="Tropa">
+                    <span class="caption">Tropa</span>
                 </a>
             </div>
-            <div class="photo">
-                <a href="photo1 (10).jpg" class="photo-link">
-                    <img src="photo1 (10).jpg" alt="Pastor in Monumento">
-                    <span class="caption">Pastor in Monumento</span>
+            <div class="photo" data-category="friends">
+                <a href="friends (3).jpg" class="photo-link" target="output">
+                    <img src="friends (3).jpg" alt="Seminar Picture">
+                    <span class="caption">Trio Pic</span>
                 </a>
             </div>
-            <div class="photo">
-                <a href="photo1 (11).jpg" class="photo-link">
-                    <img src="photo1 (11).jpg" alt="Group picture with friends">
-                    <span class="caption">Group picture with friends</span>
+            <div class="photo" data-category="friends">
+                <a href="friends (4).jpg" class="photo-link" target="output">
+                    <img src="friends (4).jpg" alt="Tropa">
+                    <span class="caption">Tropa</span>
                 </a>
             </div>
-            <div class="photo">
-                <a href="photo1 (12).jpg" class="photo-link">
-                    <img src="photo1 (12).jpg" alt="Solo pic">
-                    <span class="caption">Solo pic</span>
+            <div class="photo" data-category="friends">
+                <a href="friends (5).jpg" class="photo-link" target="output">
+                    <img src="friends (5).jpg" alt="Trio pic at MOA">
+                    <span class="caption">Trio pic at MOA</span>
                 </a>
             </div>
-            <div class="photo">
-                <a href="photo1 (13).jpg" class="photo-link">
-                    <img src="photo1 (13).jpg" alt="Trio pic">
-                    <span class="caption">Trio pic</span>
+            <!-- ... other friend pics ... -->
+
+            <!-- Random Pics Section -->
+            <div class="category-title" id="random">
+                <h2>Random Pics</h2>
+            </div>
+            <div class="photo" data-category="random">
+                <a href="random (1).jpg" class="photo-link" target="output">
+                    <img src="random (1).jpg" alt="Immersion Photo">
+                    <span class="caption">Immersion Photo</span>
                 </a>
             </div>
-            <div class="photo">
-                <a href="photo1 (14).jpg" class="photo-link">
-                    <img src="photo1 (14).jpg" alt="Solo pic">
-                    <span class="caption">Solo pic</span>
+            <div class="photo" data-category="random">
+                <a href="random (2).jpg" class="photo-link" target="output">
+                    <img src="random (2).jpg" alt="Random">
+                    <span class="caption">Random</span>
                 </a>
             </div>
-            <div class="photo">
-                <a href="photo1 (15).jpg" class="photo-link">
-                    <img src="photo1 (15).jpg" alt="Seminar with friends">
-                    <span class="caption">Seminar with friends</span>
+            <div class="photo" data-category="random">
+                <a href="random (3).jpg" class="photo-link" target="output">
+                    <img src="random (3).jpg" alt="CCSS WEEK">
+                    <span class="caption">CCSS WEEK</span>
                 </a>
             </div>
-            <div class="photo">
-                <a href="photo1 (16).jpg" class="photo-link">
-                    <img src="photo1 (16).jpg" alt="Seminar photo">
-                    <span class="caption">Seminar photo</span>
+            <div class="photo" data-category="random">
+                <a href="random (4).jpg" class="photo-link" target="output">
+                    <img src="random (4).jpg" alt="Shoe pic">
+                    <span class="caption">Shoe pic</span>
                 </a>
             </div>
-            <div class="photo">
-                <a href="photo1 (17).jpg" class="photo-link">
-                    <img src="photo1 (17).jpg" alt="Graduation with my father">
-                    <span class="caption">Graduation with my father</span>
-                </a>
-            </div>
-            <div class="photo">
-                <a href="photo1 (18).jpg" class="photo-link">
-                    <img src="photo1 (18).jpg" alt="Picture with my brother">
-                    <span class="caption">Picture with my brother</span>
-                </a>
-            </div>
-            <div class="photo">
-                <a href="photo1 (19).jpg" class="photo-link">
-                    <img src="photo1 (19).jpg" alt="Solo pic">
-                    <span class="caption">Solo pic</span>
-                </a>
-            </div>
-            <div class="photo">
-                <a href="photo1 (20).jpg" class="photo-link">
-                    <img src="photo1 (20).jpg" alt="Picture with my sister">
-                    <span class="caption">Picture with my sister</span>
+            <div class="photo" data-category="random">
+                <a href="random (5).jpg" class="photo-link" target="output">
+                    <img src="random (5).jpg" alt="Random">
+                    <span class="caption">Random</span>
                 </a>
             </div>
         </div>
     </main>
+    
     <a href="#top" class="go-top-btn">
         <i class="fa-solid fa-arrow-up"></i>
     </a>
+    
     <footer>
         <div class="footer-content">
             <div class="social-links">
